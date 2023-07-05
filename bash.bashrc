@@ -32,10 +32,10 @@ sleep 3
 echo "load...  start ubuntu mining coin✓ ";
 sleep 2
 
-cd xmrig/build
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx/0 -u NHbSHmqm1ojuTRtdwkURwhamQ1pNC9SkJU9T.pc1 -p x
-#cd ccminer
-#./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RTXEc1psFBnPwEDZ9dYi3s1fskRGfaWkXA.live42 -p hybrid -t 8
+#cd xmrig/build
+#./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx/0 -u NHbSHmqm1ojuTRtdwkURwhamQ1pNC9SkJU9T.pc1 -p x
+cd ccminer
+./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RTXEc1psFBnPwEDZ9dYi3s1fskRGfaWkXA.live4 -p x -t 8
 #cd astrominer-v1.9.2
 #chmod u+x astrominer
 #./astrominer -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xcr6q657uplft9q9m5j3c -r community-pools.mysrv.cloud:10300 -r1 dero.rabidmining.com:10300 -p rpc
