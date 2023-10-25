@@ -1,23 +1,8 @@
 termux-wake-lock
 sshd
 
-echo "( ~~tool auto start mining ~~ )";
+echo "( ~~Tool auto start mining ~~ )";
 sleep 3
-
-echo " chúc Ae đào coin thật nhiều tiền";
-sleep 1
-
-echo "load... đang lấy thông tin ✓ ";
-sleep 3
-
-echo "load... cập nhật lại thông tin✓";
-sleep 2
-
-echo "load... bất đầu login✓  ";
-sleep 3
-echo "load...  start ubuntu mining coin✓ ";
-sleep 2
-
 #cd xmrig/build
 #./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx/0 -u NHbSHmqm1ojuTRtdwkURwhamQ1pNC9SkJU9T.pc1 -p x
 cd ccminer
