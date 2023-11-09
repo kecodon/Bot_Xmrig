@@ -5,7 +5,7 @@ echo "( ~~Tool auto start mining ~~ )";
 sleep 3
 #cd xmrig/build
 #./xmrig -o sg-zephyr.miningocean.org:5332 -a rx/0 -u ZEPHs87SZqvSfAuB2h39KpVbMVRPL98jqi7H7Z5DSmtMYM8hRU4waiAPKQA9gyKPKphHCu7b1XXqtZ8DGxAuzJm1Qkryz9xv96n -p pc1 -k
-#./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx/0 -u NHbSHmqm1ojuTRtdwkURwhamQ1pNC9SkJU9T.pc1 -p x
+#./xmrig -o gulf.moneroocean.stream:10128 -a rx/0 -u 45BksJdssCV3nrUN6edinZWMxFMypn42KjdTEeTVy9eDVUeGxfZrEobZoA7hxcQJxSAko5mr4qxSd9aHcSTxLLWmE4YH8JE.ryzen -p x
 cd ccminer
 ./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RTXEc1psFBnPwEDZ9dYi3s1fskRGfaWkXA.live4 -p x -t 8
 #cd astrominer-v1.9.2
